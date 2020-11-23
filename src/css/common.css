@@ -1,0 +1,79 @@
+html {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: inherit;
+  box-sizing: inherit;
+}
+
+*:focus {
+  outline: none;
+}
+
+body {
+  margin: 0;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: Roboto, sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+}
+.input-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 80px;
+}
+
+input {
+  width: 250px;
+}
+.country__flag {
+  width: 150px;
+}
+
+body {
+  background-color: rgb(251, 243, 243);
+}
+
+.form-field {
+  position: absolute;
+  top: 50px;
+  right: 50%;
+
+  transform: translateX(50%);
+
+  padding: 10px;
+  border: 5px solid aqua;
+  border-radius: 4px;
+  outline: none;
+}
+
+.country__card {
+  position: absolute;
+  top: 100px;
+  right: 50%;
+  margin: 20px;
+
+  transform: translateX(50%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.country__name {
+  margin-right: 20px;
+}
+
+.country-list {
+  display: block;
+  margin: 15px;
+  padding: 5px;
+  list-style-type: none;
+}
+.country__info {
+  align-items: center;
+  justify-content: center;
+}
